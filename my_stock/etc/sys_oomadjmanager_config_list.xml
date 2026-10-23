@@ -1,0 +1,51 @@
+<filter-conf>
+<version>20260623</version>
+<isOpen>1</isOpen>
+<filter-name>sys_oomadjmanager_config_list</filter-name>
+
+<OomAdjFunctionSwitch>true</OomAdjFunctionSwitch>
+
+<!--  parameter declaration -->
+<!--  processName : String , ProcessName -->
+<!--  userId : Int , UserHandle.java，USER_ALL:-1, USER_OWNER:0, USER_ID_MULTI_APP:999 -->
+<!--  objectAdj : Int , ProcessList.java，-1 for no specify adj, FOREGROUND_APP_ADJ:0, PERCEPTIBLE_RECENT_FOREGROUND_APP_ADJ:50, VISIBLE_APP_ADJ:100, PERCEPTIBLE_APP_ADJ:200, BACKUP_APP_ADJ:300, HEAVY_WEIGHT_APP_ADJ:400, SERVICE_ADJ:500, HOME_APP_ADJ:600, PREVIOUS_APP_ADJ:700, SERVICE_B_ADJ:800,  CACHED_APP_LMK_FIRST_ADJ:950 -->
+<!--  objectThreadGroup : Int , Process.java，-1 for no specify thread group, THREAD_GROUP_BACKGROUND:0, THREAD_GROUP_FOREGROUND:1, THREAD_GROUP_TOP_APP:5, THREAD_GROUP_RESTRICTED:7 -->
+<!--  duration : Long , timeout for objectAdj and objectThreadGroup, unit is ms ; value -1 means no timeout-->
+<!--  intent : String , component name -->
+<!--  intentThreadGroup : Int , Process.java，THREAD_GROUP_DEFAULT:-1, THREAD_GROUP_BACKGROUND:0, THREAD_GROUP_FOREGROUND:1, THREAD_GROUP_TOP_APP:5, THREAD_GROUP_RESTRICTED:7 -->
+<!--  memFit : Int , OomRecord.java，NO_SPECIFIC_MEMORY:-1, MEMORY_4G:4, MEMORY_6G:6, MEMORY_8G:8, MEMORY_12G:12, MEMORY_16G:16, MEMORY_24G:24 -->
+<!--  targetScene : Int , OomRecord.java，NO_SPECIFIC_SCENE:-1, TOP_APP_SCENE:0, GAME_SCENE:1, CAMERA_SCENE:2 -->
+<!--  targetTopApp : String , OomRecord.java，if targetScene is set to TOP_APP_SCENE, then targetTopApp is set to top app name-->
+
+<!--Notice: there is no space between "=" -->
+
+<OomAdjRecord 
+    processName="com.heytap.openid"
+    packageName="com.heytap.openid"
+    userId="-1"
+    objectAdj="200"
+    objectThreadGroup="-1"
+    duration="-1"
+    intent=""
+    intentThreadGroup="-1"
+    memFit="-1"
+    targetScene="-1"
+    targetTopApp=""
+/>
+
+<OomAdjRecord 
+    processName="com.oplus.stdid"
+    packageName="com.oplus.stdid"
+    userId="-1"
+    objectAdj="200"
+    objectThreadGroup="-1"
+    duration="-1"
+    intent=""
+    intentThreadGroup="-1"
+    memFit="-1"
+    targetScene="-1"
+    targetTopApp=""
+/>
+
+
+</filter-conf>
