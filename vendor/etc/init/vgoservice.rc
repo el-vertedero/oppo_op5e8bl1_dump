@@ -1,0 +1,11 @@
+service vendor.vgoservice /vendor/bin/hw/vendor.mediatek.hardware.vgoservice
+    class main
+    user media
+    group system media
+    disabled
+
+on property:ro.vendor.mtk_vgo_support=1
+    start vendor.vgoservice
+
+on property:ro.vendor.mtk_vgo_support=0
+    stop vendor.vgoservice

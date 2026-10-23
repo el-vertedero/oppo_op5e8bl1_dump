@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GPUService>
+    <Package name="com.miHoYo.hkrpg">
+        <MFRC>
+            <Thermal
+                enable="false"
+                thermalAwareThreshold="1"
+                minActiveFPS="60">
+            </Thermal>
+        </MFRC>
+    </Package>
+    <Package name="com.HoYoverse.hkrpgoversea">
+        <MFRC>
+            <Thermal
+                enable="false"
+                thermalAwareThreshold="1"
+                minActiveFPS="60">
+            </Thermal>
+        </MFRC>
+    </Package>
+    <Package name="com.miHoYo.Nap">
+        <MFRC>
+            <Thermal
+                enable="false"
+                thermalAwareThreshold="1"
+                minActiveFPS="60">
+            </Thermal>
+        </MFRC>
+    </Package>
+    <Package name="com.HoYoverse.Nap">
+        <MFRC>
+            <Thermal
+                enable="false"
+                thermalAwareThreshold="1"
+                minActiveFPS="60">
+            </Thermal>
+        </MFRC>
+    </Package>
+</GPUService>

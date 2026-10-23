@@ -1,0 +1,4 @@
+{ "source_dir": "/vendor/etc/chre",
+  "nanoapps": [
+    "nearby"
+]}
