@@ -1,0 +1,21 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm_dlkm.brand=oplus
+ro.product.odm_dlkm.device=ossi
+ro.product.odm_dlkm.manufacturer=oplus
+ro.product.odm_dlkm.model=ossi
+ro.product.odm_dlkm.name=ossi
+ro.odm_dlkm.build.date=Thu Sep  3 17:29:50 CST 2026
+ro.odm_dlkm.build.date.utc=1788427790
+ro.odm_dlkm.build.fingerprint=oplus/ossi/ossi:16/BP2A.250605.015/1788427790399:user/release-keys
+ro.odm_dlkm.build.id=BP2A.250605.015
+ro.odm_dlkm.build.tags=release-keys
+ro.odm_dlkm.build.type=user
+ro.odm_dlkm.build.version.incremental=1788427790399
+ro.odm_dlkm.build.version.release=16
+ro.odm_dlkm.build.version.release_or_codename=16
+ro.odm_dlkm.build.version.sdk=36
+ro.odm_dlkm.build.version.sdk_full=36.0
+# end of file

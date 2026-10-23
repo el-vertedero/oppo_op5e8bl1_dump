@@ -1,0 +1,11 @@
+# Soft dependencies extracted from modules themselves.
+softdep oplus_bsp_uff_fp_driver pre:mtk_disp_notify
+softdep mali_kbase_mt6993_a16w pre: memory_group_manager
+softdep mtk_sec_heap pre: apusys
+softdep sspm_v3 pre: tinysys-scmi.ko
+softdep audio_ipi pre: adsp-v2
+softdep slbc_mt6993 pre: emi-slb.ko
+softdep slbc_mt6993 pre: tinysys-scmi.ko
+softdep mtk_cm_mgr_mt6993 pre: thermal_interface.ko
+softdep gz_tz_system pre: gz_virtio_mod.ko
+softdep gz_tz_system pre: gz_irq_mod.ko

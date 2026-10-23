@@ -1,0 +1,14 @@
+# sys_mssi_64_64only_cn_armv82-user 16 BP2A.250605.015 1788920560432 release-keys
+- manufacturer: oppo
+- platform: common
+- codename: OP5E8BL1
+- flavor: sys_mssi_64_64only_cn_armv82-user
+- release: 16
+- id: BP2A.250605.015
+- incremental: B.R4T3.2796c98-1ed60e-23ca12
+- tags: release-keys
+- fingerprint: OPPO/CPH2797EEA/OP5E8BL1:16/BP2A.250605.015/B.R4T3.2796c98-1ed60e-23ca12:user/release-keys
+- is_ab: true
+- brand: OPPO
+- branch: sys_mssi_64_64only_cn_armv82-user-16-BP2A.250605.015-1788920560432-release-keys
+- repo: oppo_op5e8bl1_dump
