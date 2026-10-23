@@ -1,0 +1,24 @@
+service thermald /system_ext/bin/thermald
+    class main
+    user system
+    group system
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24095
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24363
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24098
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24096
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24364
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24360
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24094
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24362
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24366
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24369
+    stop thermald
