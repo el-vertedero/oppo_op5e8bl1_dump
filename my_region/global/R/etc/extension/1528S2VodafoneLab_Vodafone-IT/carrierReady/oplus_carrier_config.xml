@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="0"/>
+	<boolean name="carrier_allow_transfer_ims_call_bool" value="false"/>
+</carrier_config>
+<!-- Timestamp 2025-10-28T17:44:38 #1046517 -->
