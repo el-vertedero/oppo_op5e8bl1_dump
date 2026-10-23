@@ -1,0 +1,229 @@
+{
+    "freq": 897.5,
+    "char_table": [
+        {
+            "ant_num": 0,
+            "tune_code_num": 2,
+            "try_code_list": 3,
+            "mipi_bus": [
+                1,
+                1
+            ],
+            "mipi_usid": [
+                6,
+                7
+            ],
+            "reg_addr": [
+                1,
+                0
+            ],
+            "default_tune_code": [
+                165,
+                176
+            ],
+            "try_tune_code_list": [
+                [
+                    5,
+                    12
+                ],
+                [
+                    2,
+                    15
+                ],
+                [
+                    15,
+                    1
+                ]
+            ],
+            "char_data": [
+                {
+                    "ui": 1,
+                    "phase": 20,
+                    "tx_tune_code": [
+                        165,
+                        176
+                    ],
+                    "rx_tune_code": [
+                        165,
+                        176
+                    ],
+                    "retry_tune_code": [
+                        165,
+                        176
+                    ],
+                    "best_gamma": [
+                        0,
+                        100
+                    ],
+                    "char": [
+                        15,
+                        60,
+                        68
+                    ]
+                },
+                {
+                    "ui": 4,
+                    "phase": 20,
+                    "tx_tune_code": [
+                        165,
+                        176
+                    ],
+                    "rx_tune_code": [
+                        165,
+                        176
+                    ],
+                    "retry_tune_code": [
+                        165,
+                        176
+                    ],
+                    "best_gamma": [
+                        0,
+                        100
+                    ],
+                    "char": [
+                        66,
+                        61,
+                        67
+                    ]
+                }
+            ]
+        },
+        {
+            "ant_num": 1,
+            "tune_code_num": 2,
+            "try_code_list": 3,
+            "mipi_bus": [
+                1,
+                1
+            ],
+            "mipi_usid": [
+                8,
+                8
+            ],
+            "reg_addr": [
+                0,
+                1
+            ],
+            "default_tune_code": [
+                1,
+                30
+            ],
+            "try_tune_code_list": [
+                [
+                    28,
+                    0
+                ],
+                [
+                    31,
+                    0
+                ],
+                [
+                    10,
+                    0
+                ]
+            ],
+            "char_data": [
+                {
+                    "ui": 1,
+                    "phase": 40,
+                    "tx_tune_code": [
+                        1,
+                        30
+                    ],
+                    "rx_tune_code": [
+                        1,
+                        30
+                    ],
+                    "retry_tune_code": [
+                        28,
+                        0
+                    ],
+                    "best_gamma": [
+                        0,
+                        36
+                    ],
+                    "char": [
+                        14,
+                        56,
+                        56
+                    ]
+                },
+                {
+                    "ui": 4,
+                    "phase": 40,
+                    "tx_tune_code": [
+                        1,
+                        30
+                    ],
+                    "rx_tune_code": [
+                        1,
+                        30
+                    ],
+                    "retry_tune_code": [
+                        28,
+                        0
+                    ],
+                    "best_gamma": [
+                        10,
+                        24
+                    ],
+                    "char": [
+                        17,
+                        17,
+                        17
+                    ]
+                },
+                {
+                    "ui": 2,
+                    "phase": 20,
+                    "tx_tune_code": [
+                        2,
+                        29
+                    ],
+                    "rx_tune_code": [
+                        2,
+                        29
+                    ],
+                    "retry_tune_code": [
+                        28,
+                        0
+                    ],
+                    "best_gamma": [
+                        36,
+                        120
+                    ],
+                    "char": [
+                        43,
+                        32,
+                        33
+                    ]
+                },
+                {
+                    "ui": 3,
+                    "phase": 20,
+                    "tx_tune_code": [
+                        2,
+                        29
+                    ],
+                    "rx_tune_code": [
+                        2,
+                        29
+                    ],
+                    "retry_tune_code": [
+                        28,
+                        0
+                    ],
+                    "best_gamma": [
+                        22,
+                        36
+                    ],
+                    "char": [
+                        29,
+                        38,
+                        38
+                    ]
+                }
+            ]
+        }
+    ]
+}

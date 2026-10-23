@@ -1,0 +1,84 @@
+{
+    "satellite": [
+        {
+            "type": "RPC",
+            "state": 0,
+            "ant": 0,
+            "fem_cfgs": [
+                {
+                    "type": "MIPI",
+                    "bus": 0,
+                    "usid": 7,
+                    "reg": 1,
+                    "value": {
+                      "tx": 240,
+                      "rx": 240
+                    }
+                },
+                {
+                    "type": "MIPI",
+                    "bus": 0,
+                    "usid": 4,
+                    "reg": 1,
+                    "value": {
+                      "tx": 52,
+                      "rx": 52
+                    }
+                }
+            ]
+        },
+        {
+            "type": "RPC",
+            "state": 1,
+            "ant": 0,
+            "fem_cfgs": [
+                {
+                    "type": "MIPI",
+                    "bus": 0,
+                    "usid": 7,
+                    "reg": 1,
+                    "value": {
+                      "tx": 225,
+                      "rx": 210
+                    }
+                },
+                {
+                    "type": "MIPI",
+                    "bus": 0,
+                    "usid": 4,
+                    "reg": 1,
+                    "value": {
+                      "tx": 105,
+                      "rx": 90
+                    }
+                }
+            ]
+        }
+    ],
+    "tx_sharing": [
+        {
+            "band": [5, 28],
+            "fem_cfgs": [
+                {
+                    "type": "MIPI",
+                    "bus": 1,
+                    "usid": 7,
+                    "reg": 1,
+                    "value": [225, 240]
+                }
+            ]
+        },
+        {
+            "band": [8, 28],
+            "fem_cfgs": [
+                {
+                    "type": "MIPI",
+                    "bus": 1,
+                    "usid": 7,
+                    "reg": 1,
+                    "value": [210, 240]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+#ifdef OPLUS_ICC
+#ZHENTENG.LIU@RF.NETWORK, 2025/05/19, Add for ICC
+on post-fs-data
+    symlink /dev/ttyS1 /dev/ttyHS5
+#endif

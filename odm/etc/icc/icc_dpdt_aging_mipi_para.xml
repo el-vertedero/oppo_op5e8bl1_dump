@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ICCAGING version="V1">
+	<!--Pay Attention:
+	1.For D-die tuner,please add "1" before mipi busid. eg,"10" means D-die bus 0
+	2.Please use hexadecimal to set slave id 
+	-->
+    <mipi busid="10">
+		<!--ANT0 USID 0x06-->
+        <slave id="6">
+            <address>1</address>
+            <data>AA</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<slave id="6">
+            <address>1</address>
+            <data>55</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<!--ANT4/9 USID 0x07-->
+		<slave id="7">
+            <address>0</address>
+            <data>AA</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<slave id="7">
+            <address>0</address>
+            <data>55</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<!--ANT1 USID 0x08-->
+		<slave id="8">
+            <address>1</address>
+            <data>AA</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<slave id="8">
+            <address>1</address>
+            <data>55</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<!--ANT5 USID 0x09-->
+		<slave id="9">
+            <address>1</address>
+            <data>AA</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<slave id="9">
+            <address>1</address>
+            <data>55</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<!--ANT6 USID 0x0a-->
+		<slave id="a">
+            <address>1</address>
+            <data>AA</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<slave id="a">
+            <address>1</address>
+            <data>55</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<!--ANT7 USID 0x0b-->
+		<slave id="b">
+            <address>1</address>
+            <data>AA</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+		<slave id="b">
+            <address>1</address>
+            <data>55</data>
+            <triggerReg>1c</triggerReg>
+            <triggerData>7</triggerData>
+        </slave>
+    </mipi>
+</ICCAGING>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the standard feature indicating that the device can communicate
+     using Near-Field Communications (NFC). -->
+<permissions>
+    <feature name="vendor.oplus.hardware.nfc_ese_guard" />
+</permissions>

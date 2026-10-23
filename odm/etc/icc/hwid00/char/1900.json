@@ -1,0 +1,67 @@
+{
+    "freq": 1900,
+    "char_table": [
+        {
+            "ant_num": 4,
+            "tune_code_num": 2,
+            "try_code_list": 3,
+            "mipi_bus": [
+                1,
+                1
+            ],
+            "mipi_usid": [
+                7,
+                6
+            ],
+            "reg_addr": [
+                0,
+                1
+            ],
+            "default_tune_code": [
+                146,
+                45
+            ],
+            "try_tune_code_list": [
+                [
+                    0,
+                    14
+                ],
+                [
+                    3,
+                    1
+                ],
+                [
+                    15,
+                    2
+                ]
+            ],
+            "char_data": [
+                {
+                    "ui": 1,
+                    "phase": 20,
+                    "tx_tune_code": [
+                        146,
+                        45
+                    ],
+                    "rx_tune_code": [
+                        146,
+                        45
+                    ],
+                    "retry_tune_code": [
+                        146,
+                        45
+                    ],
+                    "best_gamma": [
+                        0,
+                        100
+                    ],
+                    "char": [
+                        33,
+                        32,
+                        23
+                    ]
+                }
+            ]
+        }
+    ]
+}

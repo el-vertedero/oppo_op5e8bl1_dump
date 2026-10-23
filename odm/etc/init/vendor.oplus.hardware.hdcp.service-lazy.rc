@@ -1,0 +1,8 @@
+service vendor.oplus.hardware.hdcp-aidl-default /odm/bin/hw/vendor.oplus.hardware.hdcp.service-lazy
+    interface aidl vendor.oplus.hardware.hdcp.IHdcp/default
+    oneshot
+    disabled
+    class hal
+    user media
+    group media system mediadrm drmrpc inet
+

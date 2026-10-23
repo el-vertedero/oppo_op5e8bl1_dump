@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT version="V2">
+    <GeneralMode mode="QtTest">
+        <RAT name="LTE">
+            <GeneralConfig name="Power">
+                <!-- by db/100 -->
+                <default>2600</default>
+            </GeneralConfig>
+        </RAT>
+        <RAT name="NR5G">
+            <GeneralConfig name="Power">
+                <!-- by db/100 -->
+                <default>2600</default>
+            </GeneralConfig>
+            <GeneralConfig name="DutyCycle">
+                <TempMode>ORDINARY</TempMode>
+                <default>PERCENT_UNKNOWN</default>
+                <Band type="tdd">
+                    <Channel type="Low">PERCENT_40</Channel>
+                    <Channel type="Mid">PERCENT_50</Channel>
+                    <Channel type="High">PERCENT_40</Channel>
+                </Band>
+            </GeneralConfig>
+            <GeneralConfig name="DutyCycle">
+                <TempMode>LOW</TempMode>
+                <default>PERCENT_UNKNOWN</default>
+                <Band type="tdd">
+                    <Channel type="Low">PERCENT_10</Channel>
+                    <Channel type="Mid">PERCENT_50</Channel>
+                    <Channel type="High">PERCENT_10</Channel>
+                </Band>
+            </GeneralConfig>
+            <GeneralConfig name="DutyCycle">
+                <TempMode>HIGH</TempMode>
+                <default>PERCENT_UNKNOWN</default>
+                <Band type="tdd">
+                    <default>PERCENT_50</default>
+                </Band>
+            </GeneralConfig>
+        </RAT>
+    </GeneralMode>
+</RFTOOLKIT>

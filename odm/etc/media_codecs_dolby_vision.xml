@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Included>
+    <Decoders>
+        <MediaCodec name="c2.dolby.decoder.hevc" type="video/dolby-vision">
+            <Limit name="size" min="16x16" max="8192x4352"/>
+            <Limit name="alignment" value="2x2"/>
+            <Limit name="block-size" value="16x16"/>
+            <Limit name="block-count" range="1-138240"/>
+            <Limit name="blocks-per-second" min="1" max="8294400"/>
+            <Limit name="bitrate" range="1-240000000"/>
+            <Limit name="frame-rate" range="1-240"/>
+            <Feature name="adaptive-playback"/>
+            <Feature name="can-swap-width-height"/>
+            <Feature name="dynamic-color-aspects"/>
+            <!--WangZhikun@MULTIMEDIA.MEDIASERVER.PLAYER 8732247 Add Dolby Codec Feature-->
+            <Feature name="oplus-dolby-vision-color-mode" />
+            <Limit name="concurrent-instances" max="16"/>
+            <Limit name="performance-point-4096x2160" value="56"/>
+            <Limit name="performance-point-3840x2160" value="60"/>
+            <Limit name="performance-point-1920x1080" value="240"/>
+        </MediaCodec>
+        <MediaCodec name="c2.dolby.decoder.hevc.secure" type="video/dolby-vision">
+            <Limit name="size" min="16x16" max="3840x2160" />
+            <Limit name="block-count" range="1-32400" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="1944000" />
+            <Limit name="bitrate" range="1-40000000" />
+            <Limit name="frame-rate" range="1-60" />
+            <Limit name="concurrent-instances" max="1" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
+            <Limit name="performance-point-3840x2160" value="60" />
+            <Feature name="adaptive-playback" />
+            <Feature name="secure-playback" required="true" />
+        </MediaCodec>
+    </Decoders>
+
+    <Encoders>
+        <MediaCodec name="c2.dolby.encoder.hevc" type="video/dolby-vision">
+            <Limit name="size" min="160x128" max="7680x4320" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="80" max="3888000" />
+            <Limit name="block-count" range="80-129600" />
+            <Limit name="bitrate" range="1-100000000" />
+            <Limit name="frame-rate" range="1-480" />
+            <Limit name="complexity" range="0-100"  default="100" />
+            <Limit name="concurrent-instances" max="10" />
+            <Feature name="bitrate-modes" value="VBR,CBR" />
+            <Feature name="video-minimum-quality" />
+            <Feature name="can-swap-width-height"/>
+            <Limit name="performance-point-3840x2160" value="120" />
+            <Limit name="performance-point-1920x1080" value="180" />
+        </MediaCodec>
+    </Encoders>
+</Included>

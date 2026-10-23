@@ -1,0 +1,214 @@
+/*****************************************************************************************************************
+* This file include all the policys of fallback(short of FB)
+******************************************************************************************************************/
+{
+    "CommonConfig" :[
+        {
+            "opModes" : [0],
+            "FallbackInFrames": 0,
+            "FallbackOutFrames": 30,
+            "DarkDurationFrames": 30,
+            "CshotReqIndex": 3,
+            "AimStreamIdx": 3,
+            "DoSecondFallbackStableFrames": 10,
+            "AiTextDurationFrames": 5,
+            "FbInKeepSlaveFrames": 200,
+            "PreStreamMaxRatio": 50,
+            "AiMoonDuration": 25,
+            "DistFallbackMaxZoomRatio": 13.5,
+            "LuxFallbackMaxZoomRatio": 13.5,
+            "StartPreStreamingDistance": 1100.0,
+            "SkipFirstFrames": 15,
+            "TofStableFrames": 20,
+            "AfDistanceDecreaseThd": 300.0,
+            "minAfDistanceForDecrease": 850.0
+        },
+        {
+            "opModes" : [-1],
+            "FallbackInFrames": 15,
+            "FallbackOutFrames": 12,
+            "DarkDurationFrames": 30,
+            "CshotReqIndex": 3,
+            "AimStreamIdx": 3,
+            "DoSecondFallbackStableFrames": 10,
+            "AiTextDurationFrames": 5,
+            "FbInKeepSlaveFrames": 200,
+            "PreStreamMaxRatio": 50,
+            "AiMoonDuration": 25,
+            "DistFallbackMaxZoomRatio": 13.5,
+            "LuxFallbackMaxZoomRatio": 13.5,
+            "StartPreStreamingDistance": 1100.0,
+            "SkipFirstFrames": 15,
+            "TofStableFrames": 20,
+            "AfDistanceDecreaseThd": 300.0,
+            "minAfDistanceForDecrease": 850.0
+        }
+    ],
+    "DarknessRule" : [
+        {
+            "opModes" : [0],
+            "EnableLuxDarkFallback" : false,
+            "DarknessThreshold" : [480.0, 450.0],
+            "ForceStandbyIdx": 3,
+            "SecondFallbackControlZoomRatio": 15.0
+        },
+        {
+            "opModes" : [-1],
+            "EnableLuxDarkFallback" : true,
+            "DarknessThreshold" : [480.0, 450.0],
+            "ForceStandbyIdx": 3,
+            "SecondFallbackControlZoomRatio": 15.0
+        }
+    ],
+    "UWIDE": [
+        {
+            "sensorIdx": 0,
+            "opModes": [32769,32793],
+            "minFocusDistance": 100.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [55, 65],
+            "afDistanceTargetId" : -1,
+            "AfDistFallbackThreshold": [-1.0, 200.0, -1.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, 230.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 0,
+            "opModes": [32784],
+            "minFocusDistance": 100.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [55, 65],
+            "afDistanceTargetId" : -1,
+            "AfDistFallbackThreshold": [850.0, -1.0, -1.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 0,
+            "opModes": [32935,32801,32808],
+            "minFocusDistance": 100.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [55, 65],
+            "afDistanceTargetId" : -1,
+            "AfDistFallbackThreshold": [-1.0, -1.0, -1.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 0,
+            "opModes": [0],
+            "minFocusDistance": -1.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [55, 65],
+            "afDistanceTargetId" : -1,
+            "AfDistFallbackThreshold": [-1.0, -1.0, -1.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        }
+    ],
+    "MAIN": [
+        {
+            "sensorIdx": 1,
+            "opModes": [32769,32793],
+            "minFocusDistance": 200.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : 0,
+            "AfDistFallbackThreshold": [150.0, 200.0, 600.0, 450],
+            "LuxFallbackThreshold": [500, 490],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": true,
+            "LuxDistFallbackMaxZoomRatio": 3.0,
+            "LuxDistFBDisableThreshold": [500, 490],
+            "SpecialAfDistFallbackThresHold": [180.0, 230.0, 600.0, 450]
+        },
+        {
+            "sensorIdx": 1,
+            "opModes": [32935,32801,32808],
+            "minFocusDistance": 200.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : -1,
+            "AfDistFallbackThreshold": [-1.0, -1.0, 600.0, -1.0],
+            "LuxFallbackThreshold": [500, 490],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 1,
+            "opModes": [0],
+            "minFocusDistance": 200.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : -1,
+            "AfDistFallbackThreshold": [-1.0, -1.0, 600.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        }
+    ],
+    "TELE": [
+        {
+            "sensorIdx": 2,
+            "opModes": [32769,32793],
+            "minFocusDistance": 650.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : 1,
+            "AfDistFallbackThreshold": [-1.0, 600.0, 650.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": 1,
+            "LuxDistFallbackEnable": true,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 2,
+            "opModes": [32784],
+            "minFocusDistance": 650.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : 1,
+            "AfDistFallbackThreshold": [-1.0, 650.0, 850.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": false,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 2,
+            "opModes": [32935,32801,32808],
+            "minFocusDistance": 650.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : 1,
+            "AfDistFallbackThreshold": [-1.0, 600.0, 650.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": true,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        },
+        {
+            "sensorIdx": 2,
+            "opModes": [0],
+            "minFocusDistance": 650.0,
+            "fusionDistance": -1.0,
+            "LightDataThreshold": [20, 28],
+            "afDistanceTargetId" : 1,
+            "AfDistFallbackThreshold": [-1.0, 600.0, 650.0, -1.0],
+            "LuxFallbackThreshold": [530, 520],
+            "LuxFallbackTargetId": -1,
+            "LuxDistFallbackEnable": true,
+            "SpecialAfDistFallbackThresHold": [-1.0, -1.0, -1.0, -1.0]
+        }
+    ]
+}

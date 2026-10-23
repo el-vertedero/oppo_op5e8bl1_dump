@@ -1,0 +1,4478 @@
+{
+    "is_loop_mode": 0,
+    "icc_calibration_list": [
+        {
+            "radioTech": 5,
+            "band": 5,
+            "ant": 0,
+            "ul_channel": 166800,
+            "dl_channel": 175800,
+            "ul_freq_mhz": 834,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 5,
+            "ant": 0,
+            "ul_channel": 167300,
+            "dl_channel": 176300,
+            "ul_freq_mhz": 836,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 5,
+            "ant": 0,
+            "ul_channel": 167800,
+            "dl_channel": 176800,
+            "ul_freq_mhz": 839,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 8,
+            "ant": 0,
+            "ul_channel": 177000,
+            "dl_channel": 186000,
+            "ul_freq_mhz": 885,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "165"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "165"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 8,
+            "ant": 0,
+            "ul_channel": 179500,
+            "dl_channel": 188500,
+            "ul_freq_mhz": 897,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "165"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "165"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 8,
+            "ant": 0,
+            "ul_channel": 182000,
+            "dl_channel": 191000,
+            "ul_freq_mhz": 910,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "165"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw": "165"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "6",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 5,
+            "ant": 1,
+            "ul_channel": 166800,
+            "dl_channel": 175800,
+            "ul_freq_mhz": 834,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 2,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "16"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "15"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "16"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "15"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 5,
+            "ant": 1,
+            "ul_channel": 167300,
+            "dl_channel": 176300,
+            "ul_freq_mhz": 836,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 2,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "16"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "15"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "16"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "15"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 5,
+            "ant": 1,
+            "ul_channel": 167800,
+            "dl_channel": 176800,
+            "ul_freq_mhz": 839,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 2,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "16"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "15"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "16"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "15"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 8,
+            "ant": 1,
+            "ul_channel": 177000,
+            "dl_channel": 186000,
+            "ul_freq_mhz": 885,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 2,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "2"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "29"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "2"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "29"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 8,
+            "ant": 1,
+            "ul_channel": 179500,
+            "dl_channel": 188500,
+            "ul_freq_mhz": 897,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 2,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "2"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "29"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "2"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "29"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 8,
+            "ant": 1,
+            "ul_channel": 182000,
+            "dl_channel": 191000,
+            "ul_freq_mhz": 910,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 2,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "2"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "29"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw": "2"
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw": "29"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                },
+                {
+                    "bus": "1",
+                    "usid": "8",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "31"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 5,
+            "ul_channel": 344000,
+            "dl_channel": 363000,
+            "ul_freq_mhz": 1720,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "112"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "112"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 5,
+            "ul_channel": 349500,
+            "dl_channel": 368500,
+            "ul_freq_mhz": 1747,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "112"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "112"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 5,
+            "ul_channel": 355000,
+            "dl_channel": 374000,
+            "ul_freq_mhz": 1775,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "112"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "112"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 5,
+            "ul_channel": 386000,
+            "dl_channel": 424000,
+            "ul_freq_mhz": 1930,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "82"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "82"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 5,
+            "ul_channel": 390000,
+            "dl_channel": 428000,
+            "ul_freq_mhz": 1950,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "82"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "82"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 5,
+            "ul_channel": 394000,
+            "dl_channel": 432000,
+            "ul_freq_mhz": 1970,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "82"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "82"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 5,
+            "ul_channel": 462000,
+            "dl_channel": 462000,
+            "ul_freq_mhz": 2310,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 5,
+            "ul_channel": 470000,
+            "dl_channel": 470000,
+            "ul_freq_mhz": 2350,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 5,
+            "ul_channel": 476000,
+            "dl_channel": 476000,
+            "ul_freq_mhz": 2380,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 5,
+            "ul_channel": 513000,
+            "dl_channel": 513000,
+            "ul_freq_mhz": 2565,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "120"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "120"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 5,
+            "ul_channel": 518598,
+            "dl_channel": 518598,
+            "ul_freq_mhz": 2592,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "120"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "120"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 5,
+            "ul_channel": 525000,
+            "dl_channel": 525000,
+            "ul_freq_mhz": 2625,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "120"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw": "120"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "9",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 7,
+            "ul_channel": 344000,
+            "dl_channel": 363000,
+            "ul_freq_mhz": 1720,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 7,
+            "ul_channel": 349500,
+            "dl_channel": 368500,
+            "ul_freq_mhz": 1747,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 7,
+            "ul_channel": 355000,
+            "dl_channel": 374000,
+            "ul_freq_mhz": 1775,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 7,
+            "ul_channel": 386000,
+            "dl_channel": 424000,
+            "ul_freq_mhz": 1930,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "195"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "195"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 7,
+            "ul_channel": 390000,
+            "dl_channel": 428000,
+            "ul_freq_mhz": 1950,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "195"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "195"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 7,
+            "ul_channel": 394000,
+            "dl_channel": 432000,
+            "ul_freq_mhz": 1970,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "195"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "195"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 7,
+            "ul_channel": 513000,
+            "dl_channel": 513000,
+            "ul_freq_mhz": 2565,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 7,
+            "ul_channel": 518598,
+            "dl_channel": 518598,
+            "ul_freq_mhz": 2592,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 7,
+            "ul_channel": 525000,
+            "dl_channel": 525000,
+            "ul_freq_mhz": 2625,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 4,
+            "ul_channel": 344000,
+            "dl_channel": 363000,
+            "ul_freq_mhz": 1720,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "161"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "161"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 4,
+            "ul_channel": 349500,
+            "dl_channel": 368500,
+            "ul_freq_mhz": 1747,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "161"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "161"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 4,
+            "ul_channel": 355000,
+            "dl_channel": 374000,
+            "ul_freq_mhz": 1775,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "161"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "161"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 4,
+            "ul_channel": 386000,
+            "dl_channel": 424000,
+            "ul_freq_mhz": 1930,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "176"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "176"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 4,
+            "ul_channel": 390000,
+            "dl_channel": 428000,
+            "ul_freq_mhz": 1950,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "176"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "176"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 4,
+            "ul_channel": 394000,
+            "dl_channel": 432000,
+            "ul_freq_mhz": 1970,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "176"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "176"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 4,
+            "ul_channel": 462000,
+            "dl_channel": 462000,
+            "ul_freq_mhz": 2310,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 4,
+            "ul_channel": 470000,
+            "dl_channel": 470000,
+            "ul_freq_mhz": 2350,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 4,
+            "ul_channel": 478000,
+            "dl_channel": 478000,
+            "ul_freq_mhz": 2390,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 4,
+            "ul_channel": 513000,
+            "dl_channel": 513000,
+            "ul_freq_mhz": 2565,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 4,
+            "ul_channel": 518598,
+            "dl_channel": 518598,
+            "ul_freq_mhz": 2592,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 4,
+            "ul_channel": 525000,
+            "dl_channel": 525000,
+            "ul_freq_mhz": 2625,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw": "56"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "7",
+                    "reg": "0",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 6,
+            "ul_channel": 344000,
+            "dl_channel": 363000,
+            "ul_freq_mhz": 1720,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 6,
+            "ul_channel": 349500,
+            "dl_channel": 368500,
+            "ul_freq_mhz": 1747,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 3,
+            "ant": 6,
+            "ul_channel": 355000,
+            "dl_channel": 374000,
+            "ul_freq_mhz": 1775,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 6,
+            "ul_channel": 386000,
+            "dl_channel": 424000,
+            "ul_freq_mhz": 1930,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 6,
+            "ul_channel": 390000,
+            "dl_channel": 428000,
+            "ul_freq_mhz": 1950,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 1,
+            "ant": 6,
+            "ul_channel": 394000,
+            "dl_channel": 432000,
+            "ul_freq_mhz": 1970,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                5000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                15000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "180"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 6,
+            "ul_channel": 462000,
+            "dl_channel": 462000,
+            "ul_freq_mhz": 2310,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "210"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "210"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 6,
+            "ul_channel": 470000,
+            "dl_channel": 470000,
+            "ul_freq_mhz": 2350,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "210"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "210"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 40,
+            "ant": 6,
+            "ul_channel": 476000,
+            "dl_channel": 476000,
+            "ul_freq_mhz": 2380,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "210"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "210"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 6,
+            "ul_channel": 513000,
+            "dl_channel": 513000,
+            "ul_freq_mhz": 2565,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "225"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "225"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 6,
+            "ul_channel": 518598,
+            "dl_channel": 518598,
+            "ul_freq_mhz": 2592,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "225"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "225"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 41,
+            "ant": 6,
+            "ul_channel": 525000,
+            "dl_channel": 525000,
+            "ul_freq_mhz": 2625,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "225"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "225"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 6,
+            "ul_channel": 623334,
+            "dl_channel": 623334,
+            "ul_freq_mhz": 3350,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 6,
+            "ul_channel": 630000,
+            "dl_channel": 630000,
+            "ul_freq_mhz": 3450,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 6,
+            "ul_channel": 636666,
+            "dl_channel": 636666,
+            "ul_freq_mhz": 3549,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 6,
+            "ul_channel": 627000,
+            "dl_channel": 627000,
+            "ul_freq_mhz": 3405,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 6,
+            "ul_channel": 640000,
+            "dl_channel": 640000,
+            "ul_freq_mhz": 3600,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 6,
+            "ul_channel": 650000,
+            "dl_channel": 650000,
+            "ul_freq_mhz": 3750,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw": "240"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "10",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 8,
+            "ul_channel": 623334,
+            "dl_channel": 623334,
+            "ul_freq_mhz": 3350,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 8,
+            "ul_channel": 630000,
+            "dl_channel": 630000,
+            "ul_freq_mhz": 3450,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 8,
+            "ul_channel": 636666,
+            "dl_channel": 636666,
+            "ul_freq_mhz": 3549,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 8,
+            "ul_channel": 627000,
+            "dl_channel": 627000,
+            "ul_freq_mhz": 3405,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 8,
+            "ul_channel": 640000,
+            "dl_channel": 640000,
+            "ul_freq_mhz": 3600,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        {
+            "radioTech": 5,
+            "band": 78,
+            "ant": 8,
+            "ul_channel": 650000,
+            "dl_channel": 650000,
+            "ul_freq_mhz": 3750,
+            "threshold_low": 0,
+            "threshold_high": 0,
+            "pwr_cal_num": 1,
+            "cal_pwr_list": [
+                230
+            ],
+            "pwr_tol_list": [
+                25
+            ],
+            "golden_list": [
+                100
+            ],
+            "near_golden_list": [
+                100
+            ],
+            "common_setting": [
+                230,
+                0,
+                10000,
+                1,
+                20,
+                0,
+                255,
+                11,
+                2,
+                30000
+            ],
+            "mipi_num": 1,
+            "mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "default_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw": "105"
+                }
+            ],
+            "cycle_mipi_list": [
+                {
+                    "bus": "1",
+                    "usid": "11",
+                    "reg": "1",
+                    "cw_range": [
+                        "0",
+                        "15"
+                    ]
+                }
+            ]
+        }
+    ]
+}

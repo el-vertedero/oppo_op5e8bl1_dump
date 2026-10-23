@@ -1,0 +1,24 @@
+{
+    "module": "oppo_dualDepthCapture",
+    "product": {
+        "name": "zhujiang",
+        "productID": 3
+    },
+    "calib_params":{
+        "comment_calib":"only the Hasselblad_Len_Table_phone parameter is modifiable, and the array elements must be monotonically increasing",
+        "Hasselblad_Len_Table_phone": [30, 45, 60, 78, 112, 135],
+        "zoomMode_to_Len_lut": [3, 0, 2, 5],
+        "Phone_Len": [1.0, 1.4, 2.0, 3.0, 3.4, 0.0]
+    },
+    "nearObjects_params":{
+        "comment":"Parameter adjustment range: [0.0, 1.0]; Minimum blur intensity: nearObjectsConf=0.0, distSmoothConf=0.0, smooth_ness=1.0",
+        "nearObjectsConf": 0.5,
+        "distSmoothConf": 1.0,
+        "smooth_ness": 0.5
+    },
+    "spotTrigger_Params":{
+        "indoorLightSourceFixSpotThr": 2,
+        "indoorImgCalcIdxSpotThr": 2,
+        "dayInputYThr": 240
+    }
+}

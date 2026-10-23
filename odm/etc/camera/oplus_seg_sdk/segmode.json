@@ -1,0 +1,7 @@
+{
+    "rearCapturemode":  256,
+    "rearPortraitMode": 128,
+    "ancSegMulitMode":  1,
+    "oppsegMode":       2,
+    "PET_SEG":          3
+}

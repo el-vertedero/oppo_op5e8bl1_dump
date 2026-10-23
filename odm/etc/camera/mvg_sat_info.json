@@ -1,0 +1,101 @@
+{
+    "MvgSatSettings":
+    {
+        "CameraMinRatio": [0.6, 1.0, 3.0],
+        "CameraSwitchRatio": [1.0, 3.0],
+        "CameraPointZoomPoint": [0.6, 1.0, 2.0, 3.0, 6.0],
+        "rangBufferFactor": 1.2,
+        "sensorStreamingDelay": 3,
+        "OisCameraIdx": [1, 2],
+        "extraFramesForFallbackLPM": [1000, 30],
+        "EnableUseSAToutSuggestMasterID": 0,
+        "PowerOnSensorMaskList": [0, 1, 3],
+        "VideoZoomRange": [0.6, 0.95, 0.95, 2.9, 2.9, 120.0],
+        "VideoCameraMinRatio": [0.6, 0.95, 2.9],
+        "FusionLuxThreshold": [420.0, 420.0, 420.0]
+    },
+    "MvgSatModeConfig":
+    {
+        "VideoModeList": [32801, 32779, 32780, 32935, 32808],
+        "VideoNightModeList": [32935]
+    },
+    "EnableOneResolutionInTwoWarpOutConfig":
+    {
+        "OneResolutionInTwoWarpOutModeList":[32801, 32808],
+        "OneResolutionInTwoWarpOutCameraModeNameList":["null", "supereis_60fps"],
+        "OneResolutionInTwoWarpOutSizeList":["4K", "4K"]
+    },
+    "EnableDS4UsedModeConfig":
+    {
+        "DS4UsedModeModeList":[32801, 32808],
+        "DS4UsedModeCameraModeNameList":["null", "supereis_60fps"],
+        "DS4UsedModeSizeList":["null", "null"]
+    },
+    "UltraWideStrategy":
+    {
+        "fixedTimeSecond": 5,
+        "ratioRange": [0.5, 0.9999],
+        "subStrategyRatioRangeList": [0.5, 0.9999],
+        "zoomInActiveMapList": [3],
+        "fixActiveMapList": [1],
+        "rouletteUpActiveMapList": [3],
+        "zoomOutActiveMapList": [3],
+        "fallbackByDistanceToUWide": [1],
+        "fallbackByDistanceToWide": [1],
+        "fallbackByLuxToWide": [1],
+        "fallbackByLuxToTele": [1],
+        "pointZoomMask": [1, 3, 3, 7, 7, 7]
+    },
+    "WideStrategy":
+    {
+        "fixedTimeSecond": 5,
+        "ratioRange": [1.0, 2.9999],
+        "subStrategyRatioRangeList": [1.0, 1.001, 1.001, 1.5, 1.5, 2.9999],
+        "zoomInActiveMapList": [3, 3, 6],
+        "fixActiveMapList": [2, 2, 2],
+        "rouletteUpActiveMapList": [3, 3, 7],
+        "highTempRouletteUpActiveMapList": [3, 3, 3],
+        "zoomOutActiveMapList": [3, 3, 7],
+        "highTempZoomOutActiveMapList": [3, 3, 3],
+        "fallbackByDistanceToUWide": [3, 3, 3],
+        "fallbackByDistanceToWide": [2, 2, 2],
+        "fallbackByLuxToWide": [2, 2, 2],
+        "fallbackByLuxToTele": [2, 2, 2],
+        "pointZoomMask": [3, 2, 2, 6, 6, 6]
+    },
+    "TeleStrategy":
+    {
+        "fixedTimeSecond": 5,
+        "ratioRange": [3.0, 1000.1],
+        "subStrategyRatioRangeList": [3.0, 3.5, 3.5, 6.0, 6.0, 1000.1],
+        "zoomInActiveMapList": [6, 6, 4],
+        "fixActiveMapList": [4, 4, 4],
+        "rouletteUpActiveMapList": [7, 7, 6],
+        "highTempRouletteUpActiveMapList": [6, 6, 6],
+        "zoomOutActiveMapList": [7, 7, 7],
+        "highTempZoomOutActiveMapList": [6, 6, 6],
+        "fallbackByDistanceToUWide": [3, 3, 3],
+        "fallbackByDistanceToWide": [6, 6, 6],
+        "fallbackByLuxToWide": [2, 2, 2],
+        "fallbackByLuxToTele": [4, 4, 4],
+        "pointZoomMask": [7, 6, 6, 4, 4, 4]
+    },
+    "FeatureIzoom":
+    {
+        "Izoom[1]": [0.0, 0.0],
+        "Izoom[2]": [1.0, 2.0],
+        "Izoom[3]": [0.0, 0.0],
+        "Izoom[4]": [1.0, 6.0]
+    },
+    "MvgSatFovctrlSettings":
+    {
+        "DisplaySize": [2384, 1440, 1920, 1088],
+        "FrameSize": [2384, 1788, 1440, 1080, 1920, 1440, 1450, 1088],
+        "@SkipSensorMask":"PointZoomNone PointZoomUW2UT PointZoomUT2UW PointZoomUW2T PointZoomT2UW PointZoomW2UT PointZoomUT2W PointZoomNormal",
+        "SkipSensorMask": [      0,            4,            4,             0,             0,           4,             4,             0]
+    },
+    "FeatureCustomZoomROI":
+    {
+        "dov.com.qq.im.QIMCameraCaptureActivity[0]": [-1, 0]
+    }
+}
