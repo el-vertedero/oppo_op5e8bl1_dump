@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+	<app_feature name="com.android.settings.disallow_disable_app" args="StringList:payjoy">
+		<StringList name="payjoy" args="com.payjoy.status"/>
+		<StringList name="payjoy" args="com.payjoy.access"/>
+	</app_feature>
+	
+	<app_feature name="com.android.settings.disallow_force_stop_apps" args="StringList:apps">
+        <StringList name="apps" args="com.payjoy.access"/>
+    </app_feature>
+</extend_features>

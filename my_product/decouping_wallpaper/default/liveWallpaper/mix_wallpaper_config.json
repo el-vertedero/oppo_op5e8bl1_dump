@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "wallpapers": [
+    {
+      "liveName": "zhujiang_1.mp4",
+      "staticName": "product_wallpaper1.webp"
+    },
+    {
+      "liveName": "zhujiang_2.mp4",
+      "staticName": "product_wallpaper2.webp"
+    },
+    {
+      "liveName": "zhujiang_3.mp4",
+      "staticName": "product_wallpaper3.webp"
+    },
+    {
+      "liveName": "zhujiang_4.mp4",
+      "staticName": "product_wallpaper4.webp"
+    }
+  ]
+}

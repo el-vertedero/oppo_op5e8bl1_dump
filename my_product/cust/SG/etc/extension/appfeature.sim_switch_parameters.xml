@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="oplus_sim_switch_parameter" args="StringList:carrier">
+        <StringList name="carrier" args="name=sg-starhub|display_name=StarHub|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+		<StringList name="carrier" args="name=sg-singtel|display_name=Singtel|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+        <StringList name="carrier" args="name=sg-m1|display_name=M1|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+    </app_feature>
+</extend_features>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20260715</version>
+    <filter-name>android_dexopt_config</filter-name>
+    <sences name="aot-crash"           on="true"/>
+
+    <sences name="abort"  on="true"/>
+    <abort  name="start-app"  temp="38" loading="80"/>
+
+</filter-conf>

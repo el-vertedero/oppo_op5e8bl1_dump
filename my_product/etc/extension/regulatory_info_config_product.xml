@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LegalInfos version="1.0">
+    <MODEL_CPH2797>
+        <MEXICO mex_laboratory="ANCE" />
+		<elabel factory_no="IN-04" region="India" e_new_style="true" origin_new_style="true"/>
+		<MEX fcc_id_number="R9C-OP24203"/> 
+		<AUS/>
+		<MAS/>
+		<CE r_new_style="true"/>
+		<INA number="114190" year="2025" made_in_number="6813" made_in_place="none" is_djid="true"/>
+		<IMG drawable="@drawable/regulatory_image_indonesia_qbcode" />
+		<INA_FIXED />
+    </MODEL_CPH2797>
+</LegalInfos>

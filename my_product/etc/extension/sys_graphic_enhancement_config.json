@@ -1,0 +1,98 @@
+{
+    "version": 2025102001,
+    "feature": {
+        "colorx": {
+            "cx_package_name": "com.oppo.colorx",
+            "coolex_white_list_v2": [
+                {
+                    "pkg": "com.tencent.ig",
+                    "graphic_api": "gles"
+                }
+            ],
+            "ofrc_1_0_white_list": [
+                {
+                    "pkg": "com.tencent.ig"
+                },
+                {
+                    "pkg": "com.pubg.krmobile"
+                },
+                {
+                    "pkg": "com.vng.pubgmobile"
+                },
+                {
+                    "pkg": "com.rekoo.pubgm"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.midaspay"
+                },
+                {
+                    "pkg": "com.mobile.legends"
+                },
+                {
+                    "pkg": "com.mobile.legends:UnityKillsMe"
+                },
+                {
+                    "pkg": "com.pubg.imobile"
+                },
+                {
+                    "pkg": "com.ngame.allstar.eu"
+                },
+                {
+                    "pkg": "com.garena.game.kgtw"
+                }
+            ],
+            "rus_file": {
+                "sys_coolex_gamedata_common_memc": [
+                     "com.tencent.ig",
+                     "com.pubg.krmobile",
+                     "com.vng.pubgmobile",
+                     "com.rekoo.pubgm",
+                     "com.levelinfinite.sgameGlobal",
+                     "com.levelinfinite.sgameGlobal.midaspay",
+                     "com.mobile.legends",
+                     "com.mobile.legends:UnityKillsMe",
+                     "com.pubg.imobile",
+                     "com.ngame.allstar.eu",
+                     "com.garena.game.kgtw"
+                ],
+                "sys_coolex_gamedata_ig_memc": [
+                    "com.tencent.ig",
+                    "com.pubg.krmobile",
+                    "com.vng.pubgmobile",
+                    "com.rekoo.pubgm"
+                ],
+                "sys_coolex_gamedata_wzryi_memc": [
+                   "com.levelinfinite.sgameGlobal",
+                   "com.levelinfinite.sgameGlobal.midaspay"
+                ],
+                "sys_coolex_gamedata_mobilelegends_memc": [
+                     "com.mobile.legends",
+                     "com.mobile.legends:UnityKillsMe"
+                ],
+                "sys_coolex_gamedata_bgmi_memc": [
+                     "com.pubg.imobile"
+                ],
+                "sys_coolex_gamedata_allstar_memc": [
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw"
+                ],
+                "sys_coolex_gamedata_colorx_common_config": [
+                    "com.garena.game.kgtw",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.mobile.legends",
+                    "com.mobile.legends:UnityKillsMe",
+                    "com.ngame.allstar.eu",
+                    "com.pubg.imobile",
+                    "com.pubg.krmobile",
+                    "com.rekoo.pubgm",
+                    "com.tencent.ig",
+                    "com.vng.pubgmobile"
+                ]
+            }
+        }
+    }
+}

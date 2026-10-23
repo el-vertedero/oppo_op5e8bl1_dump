@@ -1,0 +1,4 @@
+ro.oplus.internet.whether.force.connect=1
+ro.setupwizard.require_network=any
+ro.vendor.oplus.radio.esim.feature=1
+ro.oplus.ml.auto_ab_enable=1

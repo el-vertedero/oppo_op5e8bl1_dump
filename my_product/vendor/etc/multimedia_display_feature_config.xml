@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20260414</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>4</bigcore_id>
+            <bigcore_id>5</bigcore_id>
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+
+        <feature name="DispKeventThread" enable="1"/>
+
+        <feature name="GpuSwFence" enable="1">
+        </feature>
+
+        <feature name="DynamicBuffer" enable="0">
+        </feature>
+
+        <feature name="OplusDisplayTraceSettings" enable="1">
+            <!-- set oplusDisplayTrace maxsize default 10000 -->
+            <!-- <size>10000</size> -->
+        </feature>
+
+        <feature name="OplusFeature2Flag" enable="1">
+            <disableDeepcache>0</disableDeepcache>
+            <applyDeferModeInBackground>1</applyDeferModeInBackground>
+            <oplusHwcRetrig>1</oplusHwcRetrig>
+            <oplusPowerOffStatsSupport>1</oplusPowerOffStatsSupport>
+            <oplusVDDequeueBufferDelaySkip>1</oplusVDDequeueBufferDelaySkip>
+            <oplusVsyncTooCloseAdjust>1</oplusVsyncTooCloseAdjust>
+            <smartFpsCheckSurfaceView>1</smartFpsCheckSurfaceView>
+        </feature>
+
+        <feature name="AutoTimeStampSmooth" enable="1">
+            <layer name="plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity"></layer>
+            <layer name="plugin.ting.TingFlutterActivity"></layer>
+            <layer name="plugin.lite.ui.WxaLiteAppLiteUI"></layer>
+            <layer name="plugin.topstory.ui.home.TopStoryHomeUI"></layer>
+            <layer name="plugin.appbrand.ui.AppBrandPluginUI"></layer>
+            <layer name="SurfaceView[com.baidu.searchbox/com.baidu.searchbox.godeye.CodeScannerActivity](BLAST)"></layer>
+            <layer name="SurfaceView[com.tencent.mm/com.tencent.mm.plugin.textstatus.ui.TextStatusDoWhatActivityV2](BLAST)"></layer>
+        </feature>
+
+        <feature name="LocalHdr" enable="1">
+            <support10bit>enable</support10bit>
+        </feature>
+
+        <feature name="curtain" enable="1">
+            <application name="com.instagram.android">
+                <scene type="FuzzyLayer">
+                    <layer>TransparentModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>ModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.google.android.youtube">
+                <scene type="FuzzyLayer">
+                    <layer>WatchWhileActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>InternalMainActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>HomeActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="HdrGeneric" enable="1">
+        </feature>
+    </features>
+</filter-conf>
+
+

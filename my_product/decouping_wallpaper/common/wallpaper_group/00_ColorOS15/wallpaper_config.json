@@ -1,0 +1,12 @@
+{
+  "group": "ColorOS15",
+  "title": "ColorOS15",
+  "version": 3,
+  "wallpapers": [
+    {
+      "thumbPath": "./ColorOS1506.webp",
+      "originPath": "./ColorOS1506.webp",
+      "videoPath": "./ColorOS15006_with_mask.mp4"
+    }
+  ]
+}

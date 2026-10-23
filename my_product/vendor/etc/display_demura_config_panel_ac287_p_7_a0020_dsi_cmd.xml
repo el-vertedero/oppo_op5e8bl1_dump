@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<root>
+    <panel>
+        <item>
+            <fps>120</fps>
+            <dbv>2</dbv>
+            <rgb>101010</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>2</dbv>
+            <rgb>202020</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>60</fps>
+            <dbv>2</dbv>
+            <rgb>101010</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>60</fps>
+            <dbv>2</dbv>
+            <rgb>202020</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>169</dbv>
+            <rgb>101010</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>169</dbv>
+            <rgb>202020</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>314</dbv>
+            <rgb>101010</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>314</dbv>
+            <rgb>202020</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>2</dbv>
+            <rgb>FAFAFA</rgb>
+            <blMode>0</blMode>
+        </item>
+        <item>
+            <fps>120</fps>
+            <dbv>169</dbv>
+            <rgb>FAFAFA</rgb>
+            <blMode>0</blMode>
+        </item>
+    </panel>
+    <phone>
+
+    </phone>
+    <aoi>
+        <dbv nit="1">2</dbv>
+        <dbv nit="2">169</dbv>
+        <dbv nit="67.1">1156</dbv>
+        <dbv nit="100">1365</dbv>
+        <dbv nit="600">3063</dbv>
+    </aoi>
+</root>

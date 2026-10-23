@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <enable pkg="com.google.android.mosey" priority="7"/>
+  <enable pkg="com.oplus.aimemory" priority="7"/>
+  <enable pkg="com.oplus.nearcomm" priority="7"/>
+  <enable pkg="com.oplus.omoji" priority="7"/>
+  <del_enable pkg="com.qpon.platform" priority="7" name="Qpon.apk"/>
+</app>

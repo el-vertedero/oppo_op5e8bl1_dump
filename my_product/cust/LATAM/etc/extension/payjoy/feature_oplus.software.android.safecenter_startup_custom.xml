@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+	<app_feature name="safecenter.startup.custom.autowhite" args="StringList:customAutoList">
+        <StringList name="customAutoList" args="com.payjoy.status"/>
+    </app_feature>
+
+    <app_feature name="safecenter.startup.custom.associate" args="StringList:customAutoList">
+        <StringList name="customAutoList" args="com.payjoy.status"/>
+    </app_feature>
+</extend_features>

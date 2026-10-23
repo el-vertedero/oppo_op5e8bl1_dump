@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="oplus_device_owner_disallow_recovery_packages" args="StringList:apps" >
+        <StringList name="apps" args="com.payjoy.access;com.payjoy.status"/>
+    </app_feature>
+</extend_features>

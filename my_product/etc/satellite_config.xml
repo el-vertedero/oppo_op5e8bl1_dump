@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<satellite_config>
+    <string-array name = "network_scan_blacklist" num="1">
+        <item value="53013" />
+    </string-array>
+</satellite_config>

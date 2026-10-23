@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20250604</version>
+    <filter-name>display_frc_white_list</filter-name>
+
+    <!--Config package DSR-->
+    <mConfigMEMCDSRPackage  type="1">com.tencent.ig</mConfigMEMCDSRPackage> <!--PUBG-->
+    <mConfigMEMCDSRPackage  type="1">com.pubg.krmobile</mConfigMEMCDSRPackage> <!--PUBG-->
+    <mConfigMEMCDSRPackage  type="1">com.vng.pubgmobile</mConfigMEMCDSRPackage> <!--PUBG-->
+    <mConfigMEMCDSRPackage  type="1">com.rekoo.pubgm</mConfigMEMCDSRPackage> <!--PUBG-->
+    <mConfigMEMCDSRPackage  type="1">com.levelinfinite.sgameGlobal</mConfigMEMCDSRPackage> <!--Honor of Kings-->
+    <mConfigMEMCDSRPackage  type="1">com.levelinfinite.sgameGlobal.midaspay</mConfigMEMCDSRPackage> <!--Honor of Kings-->
+    <mConfigMEMCDSRPackage  type="1">com.mobile.legends</mConfigMEMCDSRPackage> <!--MLBB-->
+    <mConfigMEMCDSRPackage  type="1">com.mobile.legends:UnityKillsMe</mConfigMEMCDSRPackage> <!--MLBB-->
+    <mConfigMEMCDSRPackage  type="1">com.pubg.imobile</mConfigMEMCDSRPackage> <!--BGMI-->
+    <mConfigMEMCDSRPackage  type="1">com.ngame.allstar.eu</mConfigMEMCDSRPackage> <!--Arena of Valor-->
+    <mConfigMEMCDSRPackage  type="1">com.garena.game.kgtw</mConfigMEMCDSRPackage> <!--Arena of Valor-->
+</filter-conf>

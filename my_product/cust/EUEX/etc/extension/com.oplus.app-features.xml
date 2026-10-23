@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.launcher.notify_cota_scan_with_observer"/>
+	<app_feature name="com.oplus.wirelesssettings.forced_connect_network"/>
+</extend_features>
+<!-- Timestamp 2025-05-21T11:18:52 #718447 -->

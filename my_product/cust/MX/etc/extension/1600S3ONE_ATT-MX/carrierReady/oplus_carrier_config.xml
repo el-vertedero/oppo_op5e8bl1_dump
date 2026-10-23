@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="imsi_key_availability_int" value="2"/>
+	<string name="imsi_key_download_url_string">https://pki.securewifi.att.com.mx/devices/download/wifioattcommx.json</string>
+	<boolean name="allow_metered_network_for_cert_download_bool" value="true"/>
+</carrier_config>
+<!-- Timestamp 2025-08-06T11:02:36 #853094 -->

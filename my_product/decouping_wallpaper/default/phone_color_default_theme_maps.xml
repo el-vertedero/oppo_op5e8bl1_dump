@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneColors>
+        <!--PhoneColor.name：手机颜色的唯一标识，由项目、手软提供-->
+        <!--ColorDescription：手机颜色描述，描述手机颜色-->
+        <!--ColorDescriptionCN：手机颜色描述（中文），描述手机颜色-->
+        <!--DefaultWallpaper :对应的锁屏壁纸-->
+        <!--DefaultWallpaperLock :对应的桌面壁纸-->
+        <!--DefaultWallpaperComponent :对应的动态壁纸-->
+        <!--ThemeDescriptionCN：主题描述（中文），描述主题名称-->
+        <!--手机颜色唯一标识、手机颜色描述由项目或手软提供，对应主题由桌面主题组根据UI要求配置-->
+        <!--该文件由OS产品中心桌面主题组维护-->
+
+        <PhoneColor name="FFDBD5CF">
+                <ColorDescription>钛色</ColorDescription>
+                <ColorDescriptionCN>钛色</ColorDescriptionCN>
+                <DefaultWallpaper>NA</DefaultWallpaper>
+                <DefaultWallpaperLock>NA</DefaultWallpaperLock>
+                <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.Zhujiang1VideoWallpaper</DefaultWallpaperComponent>
+        </PhoneColor>
+        <PhoneColor name="FF984C5B">
+                <ColorDescription>洋红色</ColorDescription>
+                <ColorDescriptionCN>洋红色</ColorDescriptionCN>
+                <DefaultWallpaper>NA</DefaultWallpaper>
+                <DefaultWallpaperLock>NA</DefaultWallpaperLock>
+                <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.Zhujiang3VideoWallpaper</DefaultWallpaperComponent>
+        </PhoneColor>
+        <PhoneColor name="FF3F3F3F">
+                <ColorDescription>黑色</ColorDescription>
+                <ColorDescriptionCN>黑色</ColorDescriptionCN>
+                <DefaultWallpaper>NA</DefaultWallpaper>
+                <DefaultWallpaperLock>NA</DefaultWallpaperLock>
+                <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.Zhujiang4VideoWallpaper</DefaultWallpaperComponent>
+        </PhoneColor>
+        <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.Zhujiang1VideoWallpaper</DefaultWallpaperComponent>
+</PhoneColors>

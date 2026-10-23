@@ -1,0 +1,12 @@
+{
+  "group": "Nature",
+  "title": "自然风景",
+  "version": 2,
+  "wallpapers": [
+    {
+      "thumbPath": "./Nature05.webp",
+      "originPath": "./Nature05.webp",
+      "videoPath": "./Nature005_with_mask.mp4"
+    }
+  ]
+}

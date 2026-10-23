@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configs>
+  <version>3</version>
+    <Policys>
+        <Policy condition="HEAD" action = "DcdcSleepAction">11</Policy>
+        <Policy condition="!HEAD" action = "DcdcSleepAction">10</Policy>
+		<Policy condition="TESTCARD &amp;&amp; !OTA" action="AntFixAction">9</Policy>
+    </Policys>
+    <Events>
+        <Event class="HeadNearEvent" name="HEAD">1</Event>
+		<Event class="TestCardEvent" name="TESTCARD">0</Event>
+        <Event class="SwtpEvent" name="OTA">4</Event>
+    </Events>
+</Configs>

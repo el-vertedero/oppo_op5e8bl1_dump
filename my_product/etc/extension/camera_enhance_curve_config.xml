@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<root>
+    <Camera_Enhance_Curve>
+        <Source>
+        2.5f,8.5f,19f,27f,30f,33f,43f,50f,67f,80f,82f,85f,86f,87f,95f,100f,110f,120f,130f,140f,150f,160f,170f,180f,190f,200f,210f,220f,230f,240f,250f,260f,270f,440f,590f,760f,800f,880f,1025f,1050f,1132f,1214f,1321f,1471f,1600f,1800f,2000f
+        </Source>
+		
+        <Target>
+        4f,8.5f,19f,27f,30f,33f,43f,50f,67f,80f,82f,93f,105f,106f,123f,136f,148f,160f,172f,184f,196f,207f,218f,229f,240f,250f,261f,271f,281f,290f,300f,310f,320f,540f,860f,1070f,1150f,1250f,1450f,1500f,1550f,1600f,1650f,1725f,1800f,1900f,2000f
+        </Target>
+    </Camera_Enhance_Curve>
+</root>

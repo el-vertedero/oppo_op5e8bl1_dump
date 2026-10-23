@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+/***************************************************************
+** Copyright (C), 2025, OPLUS Mobile Comm Corp., Ltd
+**
+** File : multimedia_display_demura_config.xml
+** Description : APDMR RUS Config
+** Version : 1.0
+** Date : 2025/04/21
+** Author : Display
+******************************************************************/
+-->
+
+<root>
+    <!-- must update version when you commit this file -->
+    <version>20250421</version>
+
+    <!-- 0:disable, 1:enbale -->
+    <DemuraGlobalStatus>1</DemuraGlobalStatus>
+
+    <!-- station blacklist -->
+    <Blacklist>
+        <!-- using for file missing or damage then disable demura -->
+        <Station SN="FAILEDSN"> </Station>
+    </Blacklist>
+
+    <!-- app blacklist -->
+    <AppBlackList>
+    </AppBlackList>
+    <DemuraGlobalGain>1.0</DemuraGlobalGain>
+    <Gainlist>
+        <dbv_gain dbv="8">
+            <gain>1.000000,1.000000</gain>
+        </dbv_gain>
+    </Gainlist>
+</root>

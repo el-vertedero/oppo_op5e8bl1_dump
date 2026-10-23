@@ -1,0 +1,17 @@
+<oplus-config>
+
+    <!-- ZhangZhiLin@CONNECTIVITY.BT.Basic.Feature, 2021/06/30,add for bt sar feature  -->
+    <oplus-feature name="oplus.software.bt.sar_support" />
+
+    <!-- NormanLiu@CONNECTIVITY.WIFI.NETWORK, 2021/10/14 -->
+    <oplus-feature name="oplus.software.wlan.fdd_mode" />
+
+    <oplus-feature name="oplus.software.bt.sar_support" />
+
+    <!-- WangJiahao@CONNECTIVITY.WIFI.NETWORK, 2024/08/16, add for dynamic edccav2 -->
+    <!-- Notice: if config dynamic_edcca_v2, should not config dynamic_edcca and need update wifiedccaconfig.xml -->
+    <oplus-feature name="oplus.software.wlan.dynamic_edcca_v2" />
+
+    <!-- DengJia@CONNECTIVITY.WIFI.BASIC.SOFTAP.10084878, 2025/10/09, add for accelerating real-time data packet in SAP mode -->
+    <oplus-feature name="oplus.software.wlan.sap_accelerate_enable" />
+</oplus-config>

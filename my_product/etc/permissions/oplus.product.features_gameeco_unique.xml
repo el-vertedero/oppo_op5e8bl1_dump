@@ -1,0 +1,14 @@
+<oplus-config>
+    <!-- Xueliang @GAMEECO.COOLEFFECT.PM, 2024/02/28, Add for play mode feature start -->
+    <oplus-feature name="oplus.software.game.playmode_enable"/>
+    <!-- end -->
+    <!-- ZhangChunfeng @GAMEECO.COOLEFFECT.OFRC, 2024/06/26, Add for ofrc feature start -->
+    <oplus-feature name="oplus.software.display.game.ofrc_enable"/>
+    <!-- end -->
+    <!-- ZhangYelin @GAMEECO.COOLEFFECT.GP, 2025/02/12, Add for gp feature start -->
+    <oplus-feature name="oplus.software.support_gp.oppo_colorx"/>
+    <!-- end -->
+    <!-- ZhangYelin @GAMEECO.COOLEFFECT.VULKAN, 2025/06/30, Add for vulkan feature start -->
+    <oplus-feature name="oplus.software.display.game.support_vulkan"/>
+    <!-- end -->
+</oplus-config>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<unavailable-oplus-feature name="oplus.software.radio.nwpower_proc_net_control_switch_enable"/>
+	<oplus-feature name="oplus.software.radio.apn_recovery_for_export"/>
+	<oplus-feature name="oplus.software.radio.air_interface_detect_support"/>
+	<oplus-feature name="oplus.software.radio.nwpower_amc_measure_relax"/>
+</oplus-config>
+<!-- Timestamp 2025-09-09T16:32:59 #978678 -->
